@@ -1,4 +1,4 @@
-ARG GOLANG_IMAGE=golang:1.22.5-bullseye
+ARG GOLANG_IMAGE=golang:1.23.6-bullseye
 ARG NVIDIA_IMAGE=nvidia/cuda:12.2.0-devel-ubuntu20.04
 
 FROM $GOLANG_IMAGE AS build
